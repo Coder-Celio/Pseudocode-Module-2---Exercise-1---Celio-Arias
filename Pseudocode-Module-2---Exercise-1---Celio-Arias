@@ -10,9 +10,13 @@ num cubicFeet
 
  //input
 input modelName = "Enter the refrigerator model name: "
+print modelName
 input height = "Enter the interior height in inches: "
+print height
 input width = "Enter the width in inches: "
+print width
 input depth = "Enter the dept in inches: "
+print depth
 
 //process
 cubicInches = height * width * depth
