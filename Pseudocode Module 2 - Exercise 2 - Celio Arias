@@ -1,1 +1,22 @@
+start
+//Planning
+num accountBalance 
+num overDraft
+num overDrawnFee
+num newAccountBalance
 
+ //Input
+print "Enter your account balance: "
+input accountBalance
+print "How many times has the account been overdrafted? "
+input overDraft
+
+//Process
+overDrawnFee = (accountBalance * 1) - (5 * overDraft)
+newAccountBalance = accountBalance - overDrawnFee
+
+//Output
+print "The fee calculated is: " overDrawnFee
+print "The new account balance is: " newAccountBalance
+print "Thanks for using this program"
+end
