@@ -1,0 +1,16 @@
+def greaterThan(x, y):
+    return x > y
+
+#First Test
+a = 2
+b = 3
+answer = greaterThan(a, b)
+print(f"The statement " + str(a) + " is greater than " + str(b) + " is " + str(answer))
+
+
+#Second Test
+a = 10
+b = 6
+
+answer = greaterThan(a, b)
+print(f"The statement " + str(a) + " is greater than " + str(b) + " is " + str(answer))
