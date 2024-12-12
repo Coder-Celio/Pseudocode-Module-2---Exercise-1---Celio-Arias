@@ -1,0 +1,14 @@
+start
+    STRING dictionary = loadDictionary()  
+    STRING = word
+
+    PRINT "Enter the word you want to look up:"
+    READ word  
+
+    IF word EXISTS IN dictionary THEN
+         word = dictionary[word] 
+         output “Word is : “
+ELSE 
+	output “This isn’t the word”
+    END IF
+END
