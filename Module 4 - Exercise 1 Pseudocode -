@@ -1,0 +1,17 @@
+start
+	num correctNumber =  randomNumber(1, 100)
+	num  guess = 0 
+
+	WHILE guess is not equal to correctNumber
+		output  “Enter your guess: “
+		input guess
+
+		IF guess > correctNumber THEN
+			print  “Too high! “
+		ELSE IF guess < correctNumber THEN
+			print  “Too low! “
+		ELSE
+			print  “ That number was correct! “
+		ENDIF
+	ENDWHILE	
+end
